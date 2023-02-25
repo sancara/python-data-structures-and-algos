@@ -10,4 +10,11 @@
 - comprised of nodes
 - head and tail nodes
 - data and link to next node
-## 
+## Double Linked List
+- comprised of nodes
+- two pointers:
+    - one for next node
+    - one for previous node
+- head previous node is set to null
+- tail next node is set to null
+
