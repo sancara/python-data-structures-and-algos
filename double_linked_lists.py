@@ -4,6 +4,15 @@ class DoublyLinkedList:
   def __init__(self):
     self.head_node = None
     self.tail_node = None
+
+  def stringify_list(self):
+        string_list = ""
+        current_node = self.get_head_node()
+        while current_node:
+            if current_node.get_value() != None:
+                string_list += f'{current_node.get_value()}
+            current_node = current_node.get_next_node()
+        return string_list
   
   def add_to_head(self, new_value):
     new_head = Node(new_value)
