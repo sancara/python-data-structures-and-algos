@@ -1,4 +1,4 @@
-from . import nodes.Node
+from nodes import Node
 
 class LinkedList:
     '''
@@ -27,7 +27,7 @@ class LinkedList:
         current_node = self.get_head_node()
         while current_node:
             if current_node.get_value() != None:
-                string_list += f'{current_node.get_value()}
+                string_list += f'{current_node.get_value()}'
             current_node = current_node.get_next_node()
         return string_list
     

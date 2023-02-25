@@ -1,4 +1,4 @@
-from . import nodes.Node 
+from nodes import Node 
 
 class Queue:
     '''
@@ -40,13 +40,13 @@ class Queue:
             self.size -= 1
             return item_to_remove.get_value()
         else:
-        print("This queue is totally empty!")
+            print("This queue is totally empty!")
     
     def peek(self):
         if self.is_empty():
             print("Nothing to see here!")
         else:
-        return self.head.get_value()
+            return self.head.get_value()
   
     def get_size(self):
         return self.size
