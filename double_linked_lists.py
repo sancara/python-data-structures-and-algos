@@ -1,9 +1,37 @@
 from . import nodes.Node
     
 class DoublyLinkedList:
+  '''
+    Double Linked Lists are a sequence of nodes.
+    It starts with a head, they are bidirectional,
+    - get_head_node returns where the linked list starts.
+    - add_to_head: consecuently after setting the new node as head node, 
+    it becomes the first node in the double linked list,
+    without losing any information.
+    - add_to_tail: consecuently after setting new node as tail node,
+    it becomes the last node in the double linked list,
+    without losing any information.
+    - remove_head: change the pointer from the current head to next node,
+    remove the current head node, making the next one the new head.
+    - remove_tail: change the pointer from the current tail to prev node,
+    remove the current tail node, making the prev node the new tail.
+    - remove_by_value: method needed when the node to remove is not the head,
+    neither the tail, you pass a value, then this method iterate the list,
+    when matched, change the pointers (next and prev), making the value orphan.
+    - stringify_list shows the values from each node in the linked list
+    '''
   def __init__(self):
     self.head_node = None
     self.tail_node = None
+
+  def stringify_list(self):
+        string_list = ""
+        current_node = self.get_head_node()
+        while current_node:
+            if current_node.get_value() != None:
+                string_list += f'{current_node.get_value()}
+            current_node = current_node.get_next_node()
+        return string_list
   
   def add_to_head(self, new_value):
     new_head = Node(new_value)

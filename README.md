@@ -17,4 +17,14 @@
     - one for previous node
 - head previous node is set to null
 - tail next node is set to null
-
+## Queues
+- comprised of nodes
+- three main operations:
+    - enqueue: add data to the back
+    - dequeue: remove and provide data from the front
+    - peek: shows data from the front
+- implemented as an array | linked list
+- bounded queue has a limited size
+- enqueue on a full queue causes overflow
+- dequeue on an empty queue causes underflow
+- queue process data -> first in, first out FIFO
