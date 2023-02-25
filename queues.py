@@ -15,5 +15,20 @@ class Queue:
         self.tail = None
   
     def peek(self):
+        if self.is_empty():
+            print("Nothing to see here!")
+        else:
         return self.head.get_value()
+  
+    def get_size(self):
+        return self.size
+  
+    def has_space(self):
+        if self.max_size == None:
+            return True
+        else:
+            return self.max_size > self.get_size()
+    
+    def is_empty(self):
+        return self.size == 0
 
