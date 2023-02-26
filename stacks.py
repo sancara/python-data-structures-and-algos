@@ -1,6 +1,18 @@
 from nodes import Node
 
 class Stack:
+    '''
+    Similiar to queues, but under the premise of
+    Last In First Out LIFO
+
+    methods: 
+        Push: to add to the top of the stack
+        Pop: remove and return the value of the top
+        Peek: return the value of the top without removing
+
+    Stacks can have limits uper stack overflow, trying to pop
+    an empty stack, stack underflow
+    '''
     def __init__(self, limit=1000):
         self.top_item = None
         self.size = 0
