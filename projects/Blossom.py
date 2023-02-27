@@ -5,11 +5,14 @@ class HashMap:
     def __init__(self, size):
         self.array_size = size
         self.array = [LinkedList() for e in range(self.array_size)]
+        
     def hash(self, key):
         hash_code = sum(key.encode()) 
         return hash_code
+    
     def compress(self, hash_code):
         return hash_code % self.array_size
+    
     def assign(self, key, value):
         array_index = self.compress(self.hash(key))
         payload = Node([key, value])
@@ -21,9 +24,9 @@ class HashMap:
 
     def retrieve(self, key):
         array_index = self.compress(self.hash(key))
-        payload = self.array[array_index]
-        if payload != None:
-            if payload[0] == key:
-                return payload[1]
-        else:
-            return None
+        list_at_index  = self.array[array_index]
+        for e in list_at_index:
+            if e[0] == key:
+                return e[1]
+            else:
+                return None
