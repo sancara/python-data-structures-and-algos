@@ -19,7 +19,7 @@ num_disks = int(input("How many disk do you want to play with?\n"))
 
 while num_disks < 3:
   print("Enter a number greater than or equal to 3")
-  num_disks = int(input("How many disk do you want to play with?"))
+  num_disks = int(input("How many disk do you want to play with?\n"))
 
 for num in range(num_disks, 0, -1):
   left_stack.push(num)
