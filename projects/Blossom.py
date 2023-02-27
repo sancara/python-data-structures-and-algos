@@ -5,7 +5,7 @@ class HashMap:
     def __init__(self, size):
         self.array_size = size
         self.array = [LinkedList() for e in range(self.array_size)]
-        
+
     def hash(self, key):
         hash_code = sum(key.encode()) 
         return hash_code
@@ -30,3 +30,12 @@ class HashMap:
                 return e[1]
             else:
                 return None
+
+from blossom_lib import flower_definitions
+           
+blossom = HashMap(len(flower_definitions))
+
+for f in flower_definitions:
+  blossom.assign(f[0], f[1])
+
+print(blossom.retrieve('daisy'))
