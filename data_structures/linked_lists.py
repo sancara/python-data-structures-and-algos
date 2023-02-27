@@ -1,4 +1,4 @@
-from mypackage.nodes import Node
+from . import Node
 
 class LinkedList:
     '''
