@@ -28,9 +28,9 @@
 
 - comprised of nodes
 - three main operations:
-  - enqueue: add data to the back
-  - dequeue: remove and provide data from the front
-  - peek: shows data from the front
+  - Enqueue: add data to the back
+  - Dequeue: remove and provide data from the front
+  - Peek: shows data from the front
 - implemented as an array | linked list
 - bounded queue has a limited size
 - enqueue on a full queue causes overflow
@@ -45,3 +45,14 @@
   - Pop: returns and removes data from the top of the stack
   - Peek: returns data from the top of the stack
 - last in, first out -> (LIFO)
+
+## HashMaps
+- built on top of array, using special index system
+- key-value storage with fast assignment and lookup
+- a table that represents relationships between a set of keys
+to a set of values
+- hash function -> turns a key into an index into the underlying array
+- hash collision is when a hash function returns the same index for two different keys
+- hash collision solutions:
+  - separate chaining, where each array index points to a different data structure
+  - open addressing, where a collision triggers a probing sequence to find where to store the value for a given key
