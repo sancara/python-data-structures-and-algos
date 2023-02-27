@@ -36,7 +36,7 @@
 - enqueue on a full queue causes overflow
 - dequeue on an empty queue causes underflow
 - queue process data -> first in, first out FIFO
-  ## Stack
+## Stack
 - contains ordered set of data
 - can have a limited size
 - perform better on linked lists than arrays
