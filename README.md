@@ -1,4 +1,8 @@
 # Python Data Structures & Algorithms
+1. [Data Structures](https://github.com/sancara/python-data-structures-and-algos/blob/main/README.md)
+  1. [Nodes](https://github.com/sancara/python-data-structures-and-algos/blob/main/README.md##nodes)
+  2. [Nodes](https://github.com/sancara/python-data-structures-and-algos/blob/main/README.md##nodes)
+2. [Algorithms](https://github.com/sancara/python-data-structures-and-algos/blob/main/README.md#algorithms)
 
 # Data Structures
 
