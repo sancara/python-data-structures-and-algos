@@ -56,3 +56,12 @@ to a set of values
 - hash collision solutions:
   - separate chaining, where each array index points to a different data structure
   - open addressing, where a collision triggers a probing sequence to find where to store the value for a given key
+
+# Algorithms
+## Recursion
+- problem solving process in which a function is called within itself
+- accepts an argument and includes a condition to check whether it matches the base case
+- function will continue to call upon itself until the base case is reached
+- components:
+  - base case: a condition that evaluates the current input to stop the recursion from continuing
+  - recursive step: one or more calls to the recursive function to bring the input closer to the base case
