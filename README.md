@@ -1,8 +1,13 @@
 # Python Data Structures & Algorithms
-1. [Data Structures](https://github.com/sancara/python-data-structures-and-algos/blob/main/README.md)
-  1. [Nodes](https://github.com/sancara/python-data-structures-and-algos/blob/main/README.md##nodes)
-  2. [Nodes](https://github.com/sancara/python-data-structures-and-algos/blob/main/README.md##nodes)
+1. [Data Structures](https://github.com/sancara/python-data-structures-and-algos/blob/main/README.md#data-structures)
+  1. [Nodes](https://github.com/sancara/python-data-structures-and-algos/blob/main/README.md#nodes)
+  2. [Linked List](https://github.com/sancara/python-data-structures-and-algos/blob/main/README.md#linked-list)
+  3. [Double Linked List](https://github.com/sancara/python-data-structures-and-algos/blob/main/README.md#double-linked-list)
+  4. [Queues](https://github.com/sancara/python-data-structures-and-algos/blob/main/README.md#queues)
+  5. [Stack](https://github.com/sancara/python-data-structures-and-algos/blob/main/README.md#stack)
+  6. [HashMaps](https://github.com/sancara/python-data-structures-and-algos/blob/main/README.md#hashmaps)
 2. [Algorithms](https://github.com/sancara/python-data-structures-and-algos/blob/main/README.md#algorithms)
+  1. [Recursion](https://github.com/sancara/python-data-structures-and-algos/blob/main/README.md#recursion)
 
 # Data Structures
 
